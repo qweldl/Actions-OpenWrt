@@ -8,4 +8,3 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-link custom /usr/src/openwrt/custom-feed
 src-git helloworld https://github.com/fw876/helloworld.git
 src-git dockerman https://github.com/lisaac/luci-app-dockerman
-src-git fileassistant https://github.com/gztingting/luci-app-fileassistant.git
