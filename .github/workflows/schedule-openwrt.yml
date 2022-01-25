@@ -18,7 +18,7 @@
 #	│ │ │ │ │
 #	* * * * *
 
-name: Schedule Build OpenWrt
+name: Schedule OpenWrt
 
 on:
   schedule:
