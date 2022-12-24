@@ -16,5 +16,8 @@ git reset --hard 0e72b739ca4dd6ee19ae05e9d4a0ac4db5546f65
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+echo 'src-git dockerman https://github.com/lisaac/luci-app-dockerman' >>feeds.conf.default
+echo 'src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
+echo 'src-git openwrtPackages https://github.com/markvlenvision/openwrt-packages.git' >>feeds.conf.default
+
