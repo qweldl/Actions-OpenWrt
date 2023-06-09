@@ -20,5 +20,8 @@
 echo 'src-git kenzok8 https://github.com/kenzok8/small-package' >>feeds.conf.default
 echo 'src-git dockerman https://github.com/lisaac/luci-app-dockerman' >>feeds.conf.default
 echo 'src-git destan19 https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+
+git clone https://github.com/fw876/helloworld.git package/lean/helloworld
+git -C package/lean/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
 
