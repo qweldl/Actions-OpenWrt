@@ -29,3 +29,6 @@ git clone https://github.com/fw876/helloworld.git package/lean/helloworld
 git -C package/lean/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
 
 git clone https://github.com/gngpp/xunlei package/lean/xunlei
+
+
+#https://github.com/openwrt/luci/tree/master/applications/luci-app-acl
