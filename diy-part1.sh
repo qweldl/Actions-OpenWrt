@@ -25,8 +25,12 @@ echo 'src-git dockerman https://github.com/lisaac/luci-app-dockerman' >>feeds.co
 echo 'src-git destan19 https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
 
 
-git clone https://github.com/fw876/helloworld.git package/lean/helloworld
-git -C package/lean/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+#git clone https://github.com/fw876/helloworld.git package/lean/helloworld
+#git -C package/lean/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+
+git clone https://github.com/fw876/helloworld.git package/helloworld
+git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+
 
 git clone https://github.com/gngpp/xunlei package/lean/xunlei
 
