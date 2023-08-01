@@ -19,15 +19,15 @@
 
 echo '#src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
 echo '#src-git gngpp https://github.com/gngpp/xunlei' >>feeds.conf.default
-echo '#src-git kenzok8 https://github.com/markvlenvision/small-package' >>feeds.conf.default
 
-echo '#src-git dockerman https://github.com/lisaac/luci-app-dockerman' >>feeds.conf.default
+echo 'src-git kenzok8 https://github.com/markvlenvision/small-package' >>feeds.conf.default
+echo 'src-git dockerman https://github.com/lisaac/luci-app-dockerman' >>feeds.conf.default
 echo 'src-git destan19 https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
 
-echo 'src-git rufengsuixing https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
-echo 'src-git sirpdboy https://github.com/sirpdboy/luci-app-ddns-go' >>feeds.conf.default
-echo 'src-git garypang13 https://github.com/garypang13/luci-app-eqos' >>feeds.conf.default
-echo 'src-git KFERMercer https://github.com/KFERMercer/luci-app-tcpdump' >>feeds.conf.default
+echo '#src-git rufengsuixing https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
+echo '#src-git sirpdboy https://github.com/sirpdboy/luci-app-ddns-go' >>feeds.conf.default
+echo '#src-git garypang13 https://github.com/garypang13/luci-app-eqos' >>feeds.conf.default
+echo '#src-git KFERMercer https://github.com/KFERMercer/luci-app-tcpdump' >>feeds.conf.default
 
 
 git clone https://github.com/fw876/helloworld.git package/lean/helloworld
