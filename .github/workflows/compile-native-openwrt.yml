@@ -18,7 +18,7 @@
 #	│ │ │ │ │
 #	* * * * *
 
-name: Build OpenWrt2
+name: 编译原生OpenWRT
 
 on:
   repository_dispatch:
