@@ -18,7 +18,7 @@
 #	│ │ │ │ │
 #	* * * * *
 
-name: 编译原生OpenWRT
+name: 编译 LEDE OpenWRT
 
 on:
   repository_dispatch:
@@ -30,12 +30,12 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt.git
+  REPO_URL: https://github.com/markvlenvision/lede
   REPO_BRANCH: master
-  FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  FEEDS_CONF: lede/feeds.conf.default
+  CONFIG_FILE: lede/.config
+  DIY_P1_SH: lede/diy-part1.sh
+  DIY_P2_SH: lede/diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -75,7 +75,7 @@ jobs:
       uses: klever1988/cachewrtbuild@main
       with:
         ccache: 'true'
-        prefix: ${{ github.workspace }}/openwrt
+        prefix: $GITHUB_WORKSPACE/openwrt
 
     - name: Load custom feeds
       run: |

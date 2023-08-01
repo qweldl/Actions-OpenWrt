@@ -18,7 +18,7 @@
 #	│ │ │ │ │
 #	* * * * *
 
-name: Build OpenWrt
+name: 编译原生OpenWRT
 
 on:
   repository_dispatch:
@@ -30,7 +30,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/markvlenvision/lede
+  REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
