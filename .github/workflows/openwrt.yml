@@ -18,7 +18,7 @@
 #	│ │ │ │ │
 #	* * * * *
 
-name: Build OpenWrt
+name: Build OpenWrt2
 
 on:
   repository_dispatch:
