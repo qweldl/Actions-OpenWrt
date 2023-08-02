@@ -25,6 +25,7 @@ git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/appadguardhome
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/eqosplus
 git clone https://github.com/gngpp/xunlei package/xunlei
+git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
 
 #git clone https://github.com/lisaac/luci-app-dockerman package/dockerman
 #git clone https://github.com/kenzok8/small-package package/kenzok8
