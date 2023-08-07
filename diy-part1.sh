@@ -18,7 +18,7 @@
 # Add a feed source
 
 git clone https://github.com/fw876/helloworld.git package/lean/helloworld
-git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+git -C package/lean/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
 
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/lean/eqosplus
