@@ -16,18 +16,18 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git oaf https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
-echo 'src-git xunlei https://github.com/gngpp/xunlei' >>feeds.conf.default
-
-
-# 下载源码
-git clone https://github.com/fw876/helloworld.git package/helloworld
-git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
-
-git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-
-git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+#--echo 'src-git oaf https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
+#--echo 'src-git xunlei https://github.com/gngpp/xunlei' >>feeds.conf.default
+#--
+#--
+#--# 下载源码
+#--git clone https://github.com/fw876/helloworld.git package/helloworld
+#--git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+#--
+#--git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+#--
+#--git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
+#--git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 #git clone https://github.com/lisaac/luci-app-dockerman package/dockerman
 #git clone https://github.com/kenzok8/small-package package/kenzok8
