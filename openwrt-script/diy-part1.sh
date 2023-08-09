@@ -31,5 +31,3 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 
 #git clone https://github.com/lisaac/luci-app-dockerman package/dockerman
 #git clone https://github.com/kenzok8/small-package package/kenzok8
-
-#https://github.com/openwrt/luci/tree/master/applications/luci-app-acl
