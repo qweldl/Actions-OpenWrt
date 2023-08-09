@@ -32,10 +32,10 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-23.05
-  FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  FEEDS_CONF: openwrt-script/feeds.conf.default
+  CONFIG_FILE: openwrt-script/.config
+  DIY_P1_SH: openwrt-script/diy-part1.sh
+  DIY_P2_SH: openwrt-script/diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
