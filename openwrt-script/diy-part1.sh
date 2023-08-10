@@ -30,18 +30,19 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 
 
 #diskman
-mv OpenWrt-Packages/luci-app-diskman package/luci-app-diskman
-chmod 755 package/luci-app-diskman
+git clone https://github.com/markvlenvision/luci-app-diskman.git package/luci-app-diskman
+
+#xunlei
+git clone https://github.com/gngpp/xunlei package/luci-app-xunlei
+
+#OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
+
+#iptv
+git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
+
+#dockerman
+git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
 
 
-git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-
-#mkdir -p package/luci-app-diskman
-#mkdir -p package/parted
-#wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
-#wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
-
-
-
-#git clone https://github.com/lisaac/luci-app-dockerman package/dockerman
 #git clone https://github.com/kenzok8/small-package package/kenzok8
