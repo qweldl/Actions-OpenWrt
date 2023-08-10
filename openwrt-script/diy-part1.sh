@@ -29,5 +29,13 @@ git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplu
 git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
+
+#diskman
+mkdir -p package/luci-app-diskman
+mkdir -p package/parted
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
+
+
 #git clone https://github.com/lisaac/luci-app-dockerman package/dockerman
 #git clone https://github.com/kenzok8/small-package package/kenzok8
