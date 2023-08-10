@@ -20,21 +20,27 @@
 #echo 'src-git xunlei https://github.com/gngpp/xunlei' >>feeds.conf.default
 
 
-# 下载源码
+#helloworld
 git clone https://github.com/fw876/helloworld.git package/helloworld
 git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
 
-git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-
+#adguardhome
 git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 
 #diskman
-mkdir -p package/luci-app-diskman
-mkdir -p package/parted
-wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
-wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
+mv OpenWrt-Packages/luci-app-diskman package/luci-app-diskman
+chmod 755 package/luci-app-diskman
+
+
+git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+
+#mkdir -p package/luci-app-diskman
+#mkdir -p package/parted
+#wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
+#wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
+
 
 
 #git clone https://github.com/lisaac/luci-app-dockerman package/dockerman
