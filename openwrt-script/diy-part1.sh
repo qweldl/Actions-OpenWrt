@@ -28,21 +28,21 @@ git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
 git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
-
-#diskman
-git clone https://github.com/markvlenvision/luci-app-diskman.git package/luci-app-diskman
-
-#xunlei
-git clone https://github.com/gngpp/xunlei package/luci-app-xunlei
-
-#OpenAppFilter
-git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
-
-#iptv
-git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
-
-#dockerman
-git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
+#
+##diskman
+#git clone https://github.com/markvlenvision/luci-app-diskman.git package/luci-app-diskman
+#
+##xunlei
+#git clone https://github.com/gngpp/xunlei package/luci-app-xunlei
+#
+##OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
+#
+##iptv
+#git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
+#
+##dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
 
 
 #git clone https://github.com/kenzok8/small-package package/kenzok8
