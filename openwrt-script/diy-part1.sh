@@ -28,6 +28,17 @@ git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
 git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
+
+
+mkdir app_tmp
+git clone https://github.com/markvlenvision/openwrt-app-actions.git app_tmp/openwrt-app-actions
+
+mv app_tmp/openwrt-app-actions/applications/luci-app-jellyfin package/luci-app-jellyfin
+mv app_tmp/openwrt-app-actions/applications/luci-app-chinesesubfinder package/luci-app-chinesesubfinder
+
+rm -rf app_tmp/openwrt-app-actions
+
+
 #
 ##diskman
 #git clone https://github.com/markvlenvision/luci-app-diskman.git package/luci-app-diskman
