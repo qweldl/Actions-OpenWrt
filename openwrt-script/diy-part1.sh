@@ -29,14 +29,7 @@ git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 
-
-mkdir app_tmp
-git clone https://github.com/markvlenvision/openwrt-app-actions.git app_tmp/openwrt-app-actions
-
-mv app_tmp/openwrt-app-actions/applications/luci-app-jellyfin package/luci-app-jellyfin
-mv app_tmp/openwrt-app-actions/applications/luci-app-chinesesubfinder package/luci-app-chinesesubfinder
-
-rm -rf app_tmp/openwrt-app-actions
+git clone https://github.com/kenzok8/small-package package/kenzok8
 
 
 #
