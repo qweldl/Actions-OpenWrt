@@ -26,23 +26,21 @@
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall-packages
 git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/openwrt-passwall2
 
-
-##adguardhome
-#git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-#
-##OpenAppFilter
+#OpenAppFilter 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
-#
-##iptv
-#git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
-#
-##eqosplus
+
+#eqosplus 定时限速插件
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-#
-##dockerman
+
+
+
+#iptv
+#git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
+
+
+#dockerman
 #git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
-#
+
 ##xunlei
 #git clone https://github.com/gngpp/xunlei package/luci-app-xunlei
 
@@ -51,3 +49,7 @@ git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplu
 #git clone https://github.com/kenzok8/small-package package/kenzok8
 
 #https://github.com/openwrt/luci/tree/master/applications/luci-app-acl
+
+##adguardhome
+#git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
