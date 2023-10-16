@@ -20,21 +20,25 @@
 #echo 'src-git xunlei https://github.com/gngpp/xunlei' >>feeds.conf.default
 
 #helloworld
-git clone https://github.com/fw876/helloworld.git package/helloworld
-git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+#git clone https://github.com/fw876/helloworld.git package/helloworld
+#git -C package/helloworld reset --hard b7451f4dc495d74fe5dc5a4597d659f9515dd049
+
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall-packages
+git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/openwrt-passwall2
+
 
 ##adguardhome
 #git clone https://github.com/AdguardTeam/AdGuardHome package/adguardhome
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #
 ##OpenAppFilter
-#git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
+git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 #
 ##iptv
 #git clone https://github.com/riverscn/openwrt-iptvhelper.git package/iptvhelper
 #
 ##eqosplus
-#git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 #
 ##dockerman
 #git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
