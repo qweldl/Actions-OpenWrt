@@ -10,20 +10,20 @@
 
 run-name: 编译 LEDE OpenWrt
 
-on:
-  push:
-    paths:
-      - "lede-openwrt/**"
-
-
 #on:
-#  repository_dispatch:
-#  workflow_dispatch:
-#    inputs:
-#      ssh:
-#        description: 'SSH connection to Actions'
-#        required: false
-#        default: 'false'
+#  push:
+#    paths:
+#      - "lede-openwrt/**"
+
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -41,7 +41,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
 
     steps:
     - name: Checkout
