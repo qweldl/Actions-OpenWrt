@@ -18,7 +18,8 @@
 #	│ │ │ │ │
 #	* * * * *
 
-name: compile-test
+name: 编译原生 OpenWrt
+run-name: 编译原生 OpenWrt
 
 on:
   repository_dispatch:
