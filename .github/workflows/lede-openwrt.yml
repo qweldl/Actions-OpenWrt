@@ -9,10 +9,16 @@
 #
 
 name: Compile LEDE OpenWrt
+
+run-name: ${{ github.actor }} is learning GitHub Actions
+
+
 on:
   push:
     paths:
-      - "lede-openwrt/.config"
+      - "lede-openwrt/**"
+
+
 #on:
 #  repository_dispatch:
 #  workflow_dispatch:
